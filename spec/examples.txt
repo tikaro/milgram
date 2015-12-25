@@ -1,0 +1,5 @@
+example_id                                         | status  | run_time        |
+-------------------------------------------------- | ------- | --------------- |
+./spec/controllers/shock_controller_spec.rb[1:1:1] | passed  | 0.02408 seconds |
+./spec/helpers/shock_helper_spec.rb[1:1]           | pending | 0.00003 seconds |
+./spec/views/shock/index.html.erb_spec.rb[1:1]     | pending | 0.00005 seconds |
