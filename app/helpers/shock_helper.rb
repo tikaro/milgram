@@ -1,0 +1,2 @@
+module ShockHelper
+end
