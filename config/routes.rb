@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get 'shock/index'
-  root 'shock#index'
+  get 'home/index'
+  root 'home#index'
 end
