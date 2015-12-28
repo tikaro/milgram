@@ -1,21 +1,11 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="jumbotron">
-      <h1>Shock John</h1>
-    </div>
-    <div class="row">
-      <div class="col-md-12 center-block">
-        <p>
-          Clicking the button below sends a painful electric shock to the <a href="http://pavlok.com/">Pavlok</a> pain-as-a-service wristband on John's wrist.
-        </p>
-        <p>
-          Yes, really.
-        </p>
-        <p>
-          <%= button_to "Back", "/home/send_shock", class: "btn btn-large btn-danger" %>
-        </p>
-        <p</p>
-      <div>
-    </div>
+<div class="row">
+  <div class="center-block">
+  <h1>
+    Shock John
+  </h1>
+  <p>Push the button to send a shock to John's Pavlok pain-as-a-service bracelet.</p>
+  <p>
+    <%= button_to "Shock John", "/home/send_shock", class: "btn btn-large btn-danger" %>
+  </p>
   </div>
 </div>
